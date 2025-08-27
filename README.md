@@ -10,3 +10,37 @@ This project implements a machine learning-based disease prediction system that 
   <li>Compares model performance via metrics like accuracy, confusion matrix, and precision-recall.</li>
   <li>Optionally provides home remedy suggestions and is not a substitute for professional medical advice.</li>
 </ul>
+
+<h1>Supported Diseases</h1>
+<ul>
+  <li>Diabetes</li>
+  <li>Heart Disease</li>
+  <li>Liver Disease</li>
+  <li>Breast Cancer</li>
+  <li>Kidney Disease</li>
+  <li>Others (customize list based on datasets used)</li>
+</ul>
+
+<h1>Tech Stack</h1>
+<ul>
+  <li>Python 3.x</li>
+  <li>Scikit-learn</li>
+  <li>Pandas, NumPy, Matplotlib</li>
+  <li>Web interface: Flask or Streamlit</li>
+  <li>Jupyter Notebook for model exploration</li>
+</ul>
+
+
+<h1>Getting Started</h1>
+<h2>Prerequisites</h2>
+<ul>
+  <li>Python 3.6 or higher</li>
+  <li>pip</li>
+</ul>
+<ul>Installation</ul>
+  <li>1. Clone the repository: git clone https://github.com/<your-username>/disease-prediction-using-machine-learning.git
+cd disease-prediction-using-machine-learning
+</li>
+
+</ul>
+
