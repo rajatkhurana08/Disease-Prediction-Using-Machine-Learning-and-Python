@@ -1,2 +1,3 @@
-# Disease-prediction-using-Machine-Learning
-This Machine Learning project is used to predict the disease based on the symptoms given by the user.It predicts using three different machine learning algorithms.So,the output is accurate.It uses tkinter for GUI.
+<h1> Disease Prediction Using Machine Learning </h1>
+Overview
+This project implements a machine learning-based disease prediction system that analyzes patient symptoms and medical history to predict the likelihood of various diseases. The objective is to aid early diagnosis and improve patient care by leveraging data-driven insights.
