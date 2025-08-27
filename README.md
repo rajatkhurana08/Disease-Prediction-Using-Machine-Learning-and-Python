@@ -37,10 +37,11 @@ This project implements a machine learning-based disease prediction system that 
   <li>Python 3.6 or higher</li>
   <li>pip</li>
 </ul>
-<ul><h3>Installation</h3></ul>
-  <li>1. Clone the repository: git clone https://github.com/<your-username>/disease-prediction-using-machine-learning.git
-cd disease-prediction-using-machine-learning
-</li>
 
+<h3>Installation</h3>
+  <li>Clone the repository: git clone https://github.com/<your-username>/disease-prediction-using-machine-learning.git
+cd disease-prediction-using-machine-learning </li>
+
+    
 </ul>
 
