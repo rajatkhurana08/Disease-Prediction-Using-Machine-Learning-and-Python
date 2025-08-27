@@ -39,7 +39,7 @@ This project implements a machine learning-based disease prediction system that 
 </ul>
 
 <h3>Installation</h3>
-  <li>Clone the repository: git clone https://github.com/<your-username>/disease-prediction-using-machine-learning.git
+  <li>Clone the repository: git clone https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python.git
 cd disease-prediction-using-machine-learning </li>
 
     
