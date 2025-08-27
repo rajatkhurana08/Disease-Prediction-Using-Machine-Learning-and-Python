@@ -42,7 +42,7 @@ This project implements a machine learning-based disease prediction system that 
   Clone the repository: git clone https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python.git
 
      cd disease-prediction-using-machine-learning
-<p>Author</p>
+<p><h1>Author</h1></p>
 <p> Rajat Khurana &nbsp;&nbsp;
 
   Connect with me on LinkedIn: https://www.linkedin.com/in/rajatkhurana08/</p>
