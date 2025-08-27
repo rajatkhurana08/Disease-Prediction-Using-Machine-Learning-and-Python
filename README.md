@@ -44,8 +44,7 @@ This project implements a machine learning-based disease prediction system that 
      cd disease-prediction-using-machine-learning
 <p>Author</p>
 <p> Rajat Khurana &nbsp;&nbsp;
-  Connect with me on LinkedIn: https://www.linkedin.com/in/rajatkhurana08/</p>
 
-    
+  Connect with me on LinkedIn: https://www.linkedin.com/in/rajatkhurana08/</p>
 </ul>
 
