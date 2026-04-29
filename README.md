@@ -1,54 +1,163 @@
-<h1>Disease Prediction Using Machine Learning</h1>
-<h1>Overview</h1>
-This project implements a machine learning-based disease prediction system that analyzes patient symptoms and medical history to predict the likelihood of various diseases. The objective is to aid early diagnosis and improve patient care by leveraging data-driven insights.
+# 🩺 Disease Prediction Using Machine Learning
 
-<h1>Features</h1>
-<ul>
-  <li>Predicts risk for multiple diseases using classifiers such as logistic regression, random forest, decision tree, Naive Bayes, and SVM.</li>
-  <li>Takes user medical data and symptoms as input.</li>
-  <li>Provides a confidence score for each prediction.</li>
-  <li>Compares model performance via metrics like accuracy, confusion matrix, and precision-recall.</li>
-  <li>Optionally provides home remedy suggestions and is not a substitute for professional medical advice.</li>
-</ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange">
+  <img src="https://img.shields.io/badge/Framework-Flask%20%7C%20Streamlit-green">
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey">
+</p>
 
-<h1>Supported Diseases</h1>
-<ul>
-  <li>Diabetes</li>
-  <li>Heart Disease</li>
-  <li>Liver Disease</li>
-  <li>Breast Cancer</li>
-  <li>Kidney Disease</li>
-  <li>Others (customize list based on datasets used)</li>
-</ul>
+---
 
-<h1>Tech Stack</h1>
-<ul>
-  <li>Python 3.x</li>
-  <li>Scikit-learn</li>
-  <li>Pandas, NumPy, Matplotlib</li>
-  <li>Web interface: Flask or Streamlit</li>
-  <li>Jupyter Notebook for model exploration</li>
-</ul>
+## 📌 Overview
+This project is a **Machine Learning-based Disease Prediction System** that analyzes patient symptoms and medical attributes to predict the likelihood of various diseases.
 
-## 🖼️ Application Screenshot
+It aims to:
+- Enable **early diagnosis**
+- Provide **data-driven insights**
+- Assist healthcare awareness using ML models
 
-![Disease Prediction App UI](app-screenshot.jpg)
+> ⚠️ **Disclaimer:** This project is for educational purposes only and should not be used as a substitute for professional medical advice.
 
+---
 
-<h1>Getting Started</h1>
-<h2>Prerequisites</h2>
-<ul>
-  <li>Python 3.6 or higher</li>
-  <li>pip</li>
-</ul>
+## 🎯 Key Features
+- 🔍 Multi-disease prediction system
+- 🤖 Multiple ML algorithms:
+  - Logistic Regression
+  - Random Forest
+  - Decision Tree
+  - Naive Bayes
+  - Support Vector Machine (SVM)
+- 📊 Model comparison with:
+  - Accuracy
+  - Precision & Recall
+  - Confusion Matrix
+- 📈 Confidence score for predictions
+- 🧾 User-friendly input system
+- 🌐 Web interface (Flask / Streamlit)
+- 💡 Optional health tips
 
-<h3>Installation</h3>
-  Clone the repository: git clone https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python.git
+---
 
-     cd disease-prediction-using-machine-learning
-<p><h1>Author</h1></p>
-<p> Rajat Khurana &nbsp;&nbsp;
+## 🦠 Supported Diseases
+- Diabetes
+- Heart Disease
+- Liver Disease
+- Breast Cancer
+- Kidney Disease
+- (Easily extendable)
 
-  Connect with me on LinkedIn: https://www.linkedin.com/in/rajatkhurana08/</p>
-</ul>
+---
 
+## 🖼️ Demo
+
+### 🔹 App Interface
+![App Screenshot](app-screenshot.jpg)
+
+---
+
+## 🛠️ Tech Stack
+
+| Category        | Tools Used          |
+|----------------|---------------------|
+| Language        | Python 3.x          |
+| ML Libraries    | Scikit-learn        |
+| Data Handling   | Pandas, NumPy       |
+| Visualization   | Matplotlib, Seaborn |
+| Web Framework   | Flask / Streamlit   |
+| Development     | Jupyter Notebook    |
+
+---
+
+## 📂 Project Structure
+
+```
+disease-prediction/
+│
+├── data/               # Dataset files
+├── notebooks/          # Experimentation notebooks
+├── models/             # Saved trained models
+├── app.py              # Main application
+├── train_model.py      # Training script
+├── utils.py            # Helper functions
+├── requirements.txt    # Dependencies
+└── README.md           # Documentation
+```
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+- Python 3.6+
+- pip
+
+### 📥 Installation
+
+```bash
+git clone https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python.git
+cd disease-prediction-using-machine-learning
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+Choose how you want to run the project:
+
+### Using Flask
+```bash
+python clean_code.py
+```
+
+### Using Streamlit
+```bash
+streamlit run clean_code.py
+```
+
+---
+
+## 🧠 Model Training
+
+To train the machine learning models using your dataset, run:
+
+```bash
+python train_model.py
+```
+
+> Ensure your training data (e.g., `Training.csv`) is placed inside the `data/` directory before running.
+
+---
+
+## 📈 Evaluation Metrics
+
+The performance of the machine learning models is evaluated using the following metrics:
+
+- 🎯 **Accuracy** – Measures the overall correctness of the model
+- 📊 **Precision** – Measures how many predicted positives are actually correct
+- 🔍 **Recall** – Measures how many actual positives are correctly identified
+- ⚖️ **F1 Score** – Harmonic mean of precision and recall
+- 🧩 **Confusion Matrix** – Provides a detailed breakdown of correct and incorrect predictions
+
+---
+
+## 👨‍💻 Author
+
+**Rajat Khurana**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/rajatkhurana08/)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider:
+
+[![GitHub stars](https://img.shields.io/github/stars/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python?style=social)](https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python?style=social)](https://github.com/rajatkhurana08/Disease-Prediction-Using-Machine-Learning-and-Python/network)
+
+- ⭐ Star this repository
+- 🍴 Fork it
+- 📢 Share with others
