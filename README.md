@@ -32,7 +32,7 @@ This project implements a machine learning-based disease prediction system that 
 
 ## 🖼️ Application Screenshot
 
-![Disease Prediction App UI](images/app-screenshot.png)
+![Disease Prediction App UI](app-screenshot.jpg)
 
 
 <h1>Getting Started</h1>
