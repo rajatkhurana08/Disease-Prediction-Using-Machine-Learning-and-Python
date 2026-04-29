@@ -30,6 +30,10 @@ This project implements a machine learning-based disease prediction system that 
   <li>Jupyter Notebook for model exploration</li>
 </ul>
 
+## 🖼️ Application Screenshot
+
+![Disease Prediction App UI](images/app-screenshot.png)
+
 
 <h1>Getting Started</h1>
 <h2>Prerequisites</h2>
